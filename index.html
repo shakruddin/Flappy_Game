@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Games</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+    <audio id="myAudio">
+        <source src="POL-cooking-mania-short.ogg" type="audio/ogg">
+        <source src="POL-cooking-mania-short.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+        
+        
+    <audio id="myAudioone">
+        <source src="button-14.ogg" type="audio/ogg">
+        <source src="button-14.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+        
+        
+    <audio id="myAudiotwo">
+        <source src="smb_mariodie.ogg" type="audio/ogg">
+        <source src="smb_mariodie.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+        
+        <div id="container">
+            <img id="bird" src="image/dove.png" alt="...">
+            <div id="pole_1" class="pole"></div>
+            <div id="pole_2" class="pole"></div>
+        </div>
+        <div id="Score_div">
+            <p><b>Score: </b><span id="score">0</span></p>
+            <p><b>Speed: </b><span id="speed">10</span></p>
+        </div>
+        
+        <button id="restart">RESTART</button>
+        
+        
+        
+        
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 style="font-family: ubuntu; font-size: 33.2px; text-shadow: 1px 1px 5px #333;">Welcome To <span style="font-size: 40px; font-family: ubuntu; text-shadow: 1px 1px 5px #333;">Game</span></h2>
+            </div>
+            <div class="modal-body">
+                <button class="button" id="nane" onclick="sonu()">Play Game</button>
+            </div>
+            </div>
+        </div>
+        
+        
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
